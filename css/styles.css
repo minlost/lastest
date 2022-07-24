@@ -1,0 +1,512 @@
+  /* BASIC */
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding: 0;
+    color: #333;
+
+}
+
+
+*{
+
+  box-sizing: border-box;
+}
+
+
+.center1{
+  text-align: center
+
+}
+
+input[type=text],input[type=email], select, textarea {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-weight: bold;
+  text-align: center;
+}
+
+.center1 p{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+label{
+  font-weight: bold;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.col2{
+  text-align: left;
+
+}
+
+.adress{
+  padding-left: 500px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .col2{
+    text-align: center;
+  }
+}
+
+
+
+/* GALERY*/
+
+.gallery-section{
+  width: 100%;
+  padding: 30px 0;
+
+}
+
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.gallery-section h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  margin: 0px;
+}
+
+.border{
+  width: 180px;
+  height: 4px;
+  background: #333;
+  margin: 60px auto;
+}
+
+.gallery-section .gallery{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.gallery-section .image{
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-section .image img{
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+
+
+  /* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  font-family:
+  margin: 0.5rem;
+}
+
+.logo{
+  width: 15rem;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover{
+  background-color: grey;
+  color: black;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+ /* MAIN */
+
+.hero {
+    /* Sizing */
+    width: 100vw auto;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)), url("../uh1.jpg");
+    /* background-image: url("C:/Users/Vaclav Vlcek/Desktop/node/Dobra Nadeje/images/uh1.jpg"); */
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+/*     background-attachment: fixed; */
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+
+    background: rgba(51, 170, 51, .4)
+}
+
+.hero .btn:hover {
+  background-color: #4CAF50;
+  color: white;
+
+}
+
+.bottom{
+  text-align: center;
+  background-color: white;
+  height: 30px;
+  color: #333;
+}
+
+.bottom h2 {
+    color: #333;
+    font-size: 17px;
+    padding-top: 4px;
+    font-style: italic;
+}
+
+.mapa{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 500px;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+main div {
+   overflow: hidden;
+   text-align: center;
+}
+
+#ornament{
+  width: 30%;
+  height: 30%;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+.leftarticle{
+  text-align: right;
+  color: white;
+  padding-right: 10px;
+  font-style: italic;
+}
+
+#box1 {
+  display: inline-block;
+  width: 600px;
+  height: 350px;
+  margin: 10px auto;
+  margin-top: 30px;
+  overflow: auto;
+  border: 0.5px solid #808080;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+
+}
+
+#box2 {
+  display: inline-block;
+  width: 600px;
+  height: 350px;
+  margin: 10px auto;
+  margin-top: 30px;
+  overflow: auto;
+  border: 0.5px solid #808080;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#footer {
+   position:relative;
+   text-align: center;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   color: #333;
+}
+
+main h3 {
+ overflow: hidden;
+ text-align: center;
+ font-size: 2.5em;
+}
+
+main p{
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 1.5em;
+}
+
+.center{
+  text-align: center;
+
+}
+
+.adress{
+  font-size: 1em;
+}
+
+
+      /* RESPOSIVE 200px */
+
+
+
+@media only screen and (min-width: 1200px){
+main h3:before,
+main h3:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+main h3:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+main h3:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+}
+
+
+  /* RESPOSIVE 700px */
+
+@media only screen and (max-device-width: 700px) {
+
+  input[type=text],input[type=email], select, textarea {
+    width: 90%;
+  }
+.hero{
+     width: 100vw;
+     height: 100vh;
+  }
+
+.hero h1  {
+  font-size: 2.5em;
+}
+.hero h2  {
+  font-size: 1.5rem;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:40.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:50%;
+  width:50%;
+  position:absolute;
+}
+main p{
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1em;
+}
+#ornament{
+  width: 60%;
+  height: 60%;
+}
+#erb{
+  width: 30%;
+  height: 30%;
+}
+
+  /* NAVABR */
+
+.toggle-button{
+  display: flex;
+
+}
+.navbar-links{
+  display: none;
+  width: 100%;
+
+}
+.brand-title {
+  width: auto;
+}
+.navbar{
+  flex-direction: column;
+  align-items: flex-start;
+
+
+}
+.navbar-links ul {
+  width: 100%;
+  flex-direction: column;
+}
+
+.navbar-links li {
+  text-align: center;
+}
+}
+.navbar-links li a {
+  padding: .5rem 1rem;
+}
+.navbar-links.active{
+  display: flex;
+}
+.bottom h2 {
+    color: #333;
+    font-size: 10px;
+
+}
+
+}
+}
